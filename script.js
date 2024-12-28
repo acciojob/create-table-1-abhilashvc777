@@ -3,7 +3,7 @@ function insert_Row() {
   const tr1= document.createElement("tr")
   // const table = document.querySelector("#sampleTable")
   const tr = document.querySelectorAll("#sampleTable tr")
-  tr1.setAttribute("class","tr1")
+  // tr1.setAttribute("id","tr1")
   const insert = `<td>New cell1</td> 
 		         <td>New cell2</td>`
 	tr1.innerHTML = insert
